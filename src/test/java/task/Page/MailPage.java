@@ -111,8 +111,8 @@ public class MailPage extends Helper {
             mailboxCheck.click();
             List<WebElement> themeTwo = themeIncoming;
             amountMassageTwo = themeTwo.size();
-            Assert.assertEquals(amountMassageTwo, amountMassageOne++);
+            Assert.assertEquals(amountMassageTwo, amountMassageOne);
         }
-        while(amountMassageTwo == amountMassageOne++);
+        while(amountMassageTwo != amountMassageOne);
     }
 }
