@@ -8,11 +8,11 @@ import task.Page.SearchPage;
 import task.Settings.ConfProperties;
 
 public class MailTest {
+
     public WebDriver driver;
     public SearchPage searchPage;
     public LoginPage loginPage;
     public MailPage mailPage;
-
     @Test
     public void mailTest() {
         searchPage = new SearchPage(driver);

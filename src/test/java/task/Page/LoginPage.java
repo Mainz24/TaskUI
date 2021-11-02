@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import task.Settings.Helper;
 
 public class LoginPage extends Helper {
+
     public LoginPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);

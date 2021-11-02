@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 
 public class DriverSettings {
+
     public WebDriverWait wait;
     public WebDriver driver;
 
