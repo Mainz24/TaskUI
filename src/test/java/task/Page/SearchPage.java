@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import task.Settings.Helper;
 
 public class SearchPage extends Helper {
+
     public SearchPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);

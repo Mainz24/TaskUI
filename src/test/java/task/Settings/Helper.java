@@ -24,6 +24,6 @@ public class Helper {
      */
     public void elementDisplayed(By element) {
         waitVisibilityOfElement(element);
-        assertTrue(driver.findElement(element).isDisplayed());
+        assertTrue(driver.findElement(element).isDisplayed()) ;
     }
 }

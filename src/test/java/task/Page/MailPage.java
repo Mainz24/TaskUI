@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Set;
 
 public class MailPage extends Helper {
+
     private int amountMassageOne;
     public MailPage(WebDriver driver) {
         super(driver);
